@@ -27,8 +27,8 @@
 </v>
 </v>
 <v t="leo.20160519154619.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160519154619.2" a="E"><vh>@clean b40323248.py</vh>
-<v t="leo.20160519154619.3"><vh>b40323248 declarations</vh></v>
+<v t="leo.20160519154619.2" a="E"><vh>@clean bg6_40323248.py</vh>
+<v t="leo.20160519154619.3"><vh>bg6_40323248 declarations</vh></v>
 <v t="leo.20160519154619.4"><vh>a</vh></v>
 <v t="leo.20160519154619.5"><vh>b</vh></v>
 <v t="leo.20160519154619.6"><vh>c</vh></v>
@@ -58,7 +58,7 @@
 <v t="leo.20160519154619.30"><vh>snap_link</vh></v>
 <v t="leo.20160519154619.31"><vh>snap_gear</vh></v>
 </v>
-<v t="leo.20160519154619.32"><vh>@edit bg6_40323248.py</vh></v>
+<v t="leo.20160519154619.32"><vh>@edit bg6_40323248_1.py</vh></v>
 <v t="leo.20160519154619.33" a="E"><vh>@path ./../../../</vh>
 <v t="leo.20160519154619.34" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="leo.20160519154619.35"><vh>myflaskapp declarations</vh></v>
@@ -242,9 +242,9 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
     #x = 50
     #y = 0
     degree = 20
-    first_degree = 20.78
-    startx = -233.06+100+x
-    starty = 49.48+y
+    first_degree = 20.78+90
+    startx = -233.06+144+x
+    starty = -124.48+y
     repeat = 360 / degree
     # 先畫出左邊第一關鍵節
     outstring = '''
@@ -265,10 +265,10 @@ x1, y1 = mychain.basic_rot('''+str(startx)+","+str(starty)+", "+str(first_degree
     # 接著處理右邊的非虛擬鍊條
     # 先畫出右邊第一關鍵節
  
-    p = -17.89+100+x
+    p = -17.89+100-215.17+x
     k = 93.98+y
     degree = 12
-    first_degree = 4.78
+    first_degree = 4.78+90
     repeat = 360 / degree
     # 第1節不是 virtual chain
     outstring += '''
@@ -286,7 +286,7 @@ p1, k1 = mychain.basic_rot('''+str(p)+","+str(k)+", "+str(first_degree)+''')
  
     # 上段連接直線
     # 從 x1, y1 作為起點
-    first_degree = 10.78
+    first_degree = 10.7+90
     repeat = 10
     outstring += '''
 m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
@@ -296,7 +296,7 @@ m1, n1 = mychain.basic_rot(x1, y1, '''+str(first_degree)+''')
  
     # 下段連接直線
     # 從 x11, y11 作為起點
-    first_degree = -10.78
+    first_degree = -10.7+90
     repeat = 10
     outstring += '''
 r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
@@ -308,46 +308,46 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160519154619.13">@bg11.route('/a')
+<t tx="leo.20160519154619.13">@bg6_40323248.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.14">@bg11.route('/b')
+<t tx="leo.20160519154619.14">@bg6_40323248.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.15">@bg11.route('/c')
+<t tx="leo.20160519154619.15">@bg6_40323248.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.16">@bg11.route('/d')
+<t tx="leo.20160519154619.16">@bg6_40323248.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.17">@bg11.route('/ab')
+<t tx="leo.20160519154619.17">@bg6_40323248.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.18">@bg11.route('/ac')
+<t tx="leo.20160519154619.18">@bg6_40323248.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.19">@bg11.route('/bc')
+<t tx="leo.20160519154619.19">@bg6_40323248.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
@@ -357,13 +357,13 @@ def draw_bc():
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160519154619.20">@bg11.route('/abc')
+<t tx="leo.20160519154619.20">@bg6_40323248.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.21">@bg11.route('/aaaa')
+<t tx="leo.20160519154619.21">@bg6_40323248.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -375,58 +375,58 @@ def draw_aaaa():
  
  
 </t>
-<t tx="leo.20160519154619.22">@bg11.route('/badc')
+<t tx="leo.20160519154619.22">@bg6_40323248.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.23">@bg11.route('/abcd')
+<t tx="leo.20160519154619.23">@bg6_40323248.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.24">@bg11.route('/circle')
+<t tx="leo.20160519154619.24">@bg6_40323248.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.25">@bg11.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg11.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg11.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160519154619.25">@bg6_40323248.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg6_40323248.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg6_40323248.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg6_40323248.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.26">@bg11.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg11.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg11.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160519154619.26">@bg6_40323248.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg6_40323248.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg6_40323248.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg6_40323248.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.27">@bg11.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@bg11.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160519154619.27">@bg6_40323248.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg6_40323248.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.28">@bg11.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@bg11.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160519154619.28">@bg6_40323248.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg6_40323248.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
 </t>
-<t tx="leo.20160519154619.29">@bg11.route('/snap')
+<t tx="leo.20160519154619.29">@bg6_40323248.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -508,7 +508,7 @@ document['tux'].bind('mouseleave', hoverout)
 </t>
 <t tx="leo.20160519154619.3">from flask import Blueprint, request
  
-bg6 = Blueprint('bg6', __name__, url_prefix='/bg6', template_folder='templates')
+bg6_40323248 = Blueprint('bg6_40323248', __name__, url_prefix='/bg6_40323248', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -644,7 +644,7 @@ class chain():
 '''
  
 </t>
-<t tx="leo.20160519154619.30">@bg11.route('/snap_link')
+<t tx="leo.20160519154619.30">@bg6_40323248.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -727,7 +727,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
  
  
 </t>
-<t tx="leo.20160519154619.31">@bg11.route('/snap_gear')
+<t tx="leo.20160519154619.31">@bg6_40323248.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -849,6 +849,7 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
+app.register_blueprint(users.b.g6.bg6_40323248_1.bg6_40323248_1)
 
 
 app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
@@ -942,7 +943,7 @@ import users.b.g3.bg3_40123250_cdw11
 
 #bg6
 import users.b.g6.bg6_40323248
-
+import users.b.g6.bg6_40323248_1
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線

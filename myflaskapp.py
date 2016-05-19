@@ -80,7 +80,7 @@ import users.b.g3.bg3_40123250_cdw11
 
 #bg6
 import users.b.g6.bg6_40323248
-
+import users.b.g6.bg6_40323248_1
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -529,6 +529,7 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
+app.register_blueprint(users.b.g6.bg6_40323248_1.bg6_40323248_1)
 
 
 app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)

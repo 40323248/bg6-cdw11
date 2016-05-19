@@ -457,50 +457,50 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
     return outstring
  
  
-@bg11.route('/a')
+@bg6.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  
-@bg11.route('/b')
+@bg6.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  
-@bg11.route('/c')
+@bg6.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  
-@bg11.route('/d')
+@bg6.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  
-@bg11.route('/ab')
+@bg6.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  
-@bg11.route('/ac')
+@bg6.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg11.route('/bc')
+@bg6.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  
-@bg11.route('/abc')
+@bg6.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  
-@bg11.route('/aaaa')
+@bg6.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -511,51 +511,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  
-@bg11.route('/badc')
+@bg6.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  
-@bg11.route('/abcd')
+@bg6.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  
-@bg11.route('/circle')
+@bg6.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  
-@bg11.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle1/<x>/<degree>', defaults={'y': 0})
-@bg11.route('/circle1/<x>/<y>/<degree>')
-#@bg11.route('/circle1/<int:x>/<int:y>/<int:degree>')
+@bg6.route('/circle1/<degree>', defaults={'x': 0, 'y': 0})
+@bg6.route('/circle1/<x>/<degree>', defaults={'y': 0})
+@bg6.route('/circle1/<x>/<y>/<degree>')
+#@bg6.route('/circle1/<int:x>/<int:y>/<int:degree>')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  
-@bg11.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
-@bg11.route('/circle2/<x>/<degree>', defaults={'y': 0})
-@bg11.route('/circle2/<x>/<y>/<degree>')
-#@bg11.route('/circle2/<int:x>/<int:y>/<int:degree>')
+@bg6.route('/circle2/<degree>', defaults={'x': 0, 'y': 0})
+@bg6.route('/circle2/<x>/<degree>', defaults={'y': 0})
+@bg6.route('/circle2/<x>/<y>/<degree>')
+#@bg6.route('/circle2/<int:x>/<int:y>/<int:degree>')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  
-@bg11.route('/twocircle/<x>/<y>')
-@bg11.route('/twocircle', defaults={'x':0, 'y':0})
+@bg6.route('/twocircle/<x>/<y>')
+@bg6.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  
-@bg11.route('/eighteenthirty/<x>/<y>')
-@bg11.route('/eighteenthirty', defaults={'x':0, 'y':0})
+@bg6.route('/eighteenthirty/<x>/<y>')
+@bg6.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  
-@bg11.route('/snap')
+@bg6.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -634,7 +634,7 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  
-@bg11.route('/snap_link')
+@bg6.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -716,7 +716,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  
-@bg11.route('/snap_gear')
+@bg6.route('/snap_gear')
 def snap_gear():
     outstring = '''
 <!DOCTYPE html>
