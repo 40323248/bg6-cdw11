@@ -111,7 +111,7 @@ Author: 40323248
 cdw11
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-編輯123</t>
+&lt;img src="http://i.imgur.com/cQkRl5L.png"&gt; </t>
 <t tx="leo.20160519154611.2"></t>
 <t tx="leo.20160519154611.4"></t>
 <t tx="leo.20160519154611.5"></t>
