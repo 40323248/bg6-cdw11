@@ -21,7 +21,9 @@
 <v t="leo.20160519154611.8"><vh>@button local pelican</vh></v>
 </v>
 <v t="leo.20160519154611.9" a="E"><vh>@path content/b/g6</vh>
-<v t="leo.20160519154611.10"><vh>@edit 40323248-20160510.md</vh></v>
+<v t="leo.20160519154611.10" a="M"><vh>@edit 40323248-w11.md</vh></v>
+<v t="leo.20160616011924.1"><vh>@edit 40323248-w13.md</vh></v>
+<v t="leo.20160616011929.1"><vh>@edit 40323248-w14.md</vh></v>
 </v>
 </v>
 </v>
