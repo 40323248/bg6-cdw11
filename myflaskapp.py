@@ -81,6 +81,8 @@ import users.b.g3.bg3_40123250_cdw11
 #bg6
 import users.b.g6.bg6_40323248
 import users.b.g6.bg6_40323248_1
+import users.b.g6.bg6_40323211
+import users.b.g6.bg6_40323211_1
 #ag100
 import users.a.g100.cdw13.a40123100
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
@@ -108,7 +110,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -530,13 +531,15 @@ app.register_blueprint(users.a.g100.cdw13.a40123100.ag100)
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 app.register_blueprint(users.b.g6.bg6_40323248_1.bg6_40323248_1)
+app.register_blueprint(users.b.g6.bg6_40323211.bg6_40323211)
+app.register_blueprint(users.b.g6.bg6_40323211_1.bg6_40323211_1)
+
 
 
 app.register_blueprint(users.b.g3.bg3_40123224_cdw11.b40123224)
 app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123250)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #app.register_blueprint(users.b.g3.bg3_40123250.bg3_40123242)
-
 
 
 
