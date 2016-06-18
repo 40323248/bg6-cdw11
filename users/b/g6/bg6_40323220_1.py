@@ -5,7 +5,7 @@ from flask import Blueprint, render_template, make_response
 40323220_1= Blueprint('40323220_1', __name__, url_prefix='/40323220_1', template_folder='templates')
 
 
-40323220_40323220_1.route('/task20_1')
+@bg6_40323220_1.route('/task20_1')
 def task20_1():
     outstring = '''
 <!DOCTYPE html>
