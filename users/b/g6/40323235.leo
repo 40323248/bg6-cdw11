@@ -10,101 +10,95 @@
 <preferences/>
 <find_panel_settings/>
 <vnodes>
-<v t="leo.20160619024028.1" a="E"><vh>pelican 部份</vh>
-<v t="leo.20160619024028.2" a="E"><vh>@path ./../../../</vh>
-<v t="leo.20160619024028.3"><vh>@edit README.md</vh></v>
-<v t="leo.20160619024028.4" a="E"><vh>@path static</vh>
-<v t="leo.20160619024028.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
-<v t="leo.20160619024028.6"><vh>@button gh-pages pelican</vh></v>
+<v t="leo.20160623212005.1" a="E"><vh>pelican 部份</vh>
+<v t="leo.20160623212005.2" a="E"><vh>@path ./../../../</vh>
+<v t="leo.20160623212005.3"><vh>@edit README.md</vh></v>
+<v t="leo.20160623212005.4" a="E"><vh>@path static</vh>
+<v t="leo.20160623212005.5" a="E"><vh>假如要送到 gh-pages 分支, 使用下列按鈕</vh>
+<v t="leo.20160623212005.6"><vh>@button gh-pages pelican</vh></v>
 </v>
-<v t="leo.20160619024028.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
-<v t="leo.20160619024028.8"><vh>@button local pelican</vh></v>
+<v t="leo.20160623212005.7" a="E"><vh>假如要在近端檢視, 使用下列按鈕</vh>
+<v t="leo.20160623212005.8"><vh>@button local pelican</vh></v>
 </v>
-<v t="leo.20160619024028.9" a="E"><vh>@path content/b/g6</vh>
-<v t="leo.20160619024028.10" a="M"><vh>@edit 40323220-w11.md</vh></v>
-<v t="leo.20160619024028.11"><vh>@edit 40323220-w13.md</vh></v>
-<v t="leo.20160619024028.12"><vh>@edit 40323220-w14.md</vh></v>
-</v>
-</v>
-</v>
-</v>
-<v t="leo.20160619024033.1" a="E"><vh>wsgi 程式部份</vh>
-<v t="leo.20160619024033.2" a="E"><vh>@clean bg6_40323220.py</vh>
-<v t="leo.20160619024033.3"><vh>bg6_40323220 declarations</vh></v>
-<v t="leo.20160619024033.4"><vh>a</vh></v>
-<v t="leo.20160619024033.5"><vh>b</vh></v>
-<v t="leo.20160619024033.6"><vh>c</vh></v>
-<v t="leo.20160619024033.7"><vh>d</vh></v>
-<v t="leo.20160619024033.8"><vh>circle</vh></v>
-<v t="leo.20160619024033.9"><vh>circle1</vh></v>
-<v t="leo.20160619024033.10"><vh>circle2</vh></v>
-<v t="leo.20160619024033.11"><vh>twocircle</vh></v>
-<v t="leo.20160619024033.12"><vh>eighteenthirty</vh></v>
-<v t="leo.20160619024033.13"><vh>draw_a</vh></v>
-<v t="leo.20160619024033.14"><vh>draw_b</vh></v>
-<v t="leo.20160619024033.15"><vh>draw_c</vh></v>
-<v t="leo.20160619024033.16"><vh>draw_d</vh></v>
-<v t="leo.20160619024033.17"><vh>draw_ab</vh></v>
-<v t="leo.20160619024033.18"><vh>draw_ac</vh></v>
-<v t="leo.20160619024033.19"><vh>draw_bc</vh></v>
-<v t="leo.20160619024033.20"><vh>draw_abc</vh></v>
-<v t="leo.20160619024033.21"><vh>draw_aaaa</vh></v>
-<v t="leo.20160619024033.22"><vh>draw_badc</vh></v>
-<v t="leo.20160619024033.23"><vh>draw_abcd</vh></v>
-<v t="leo.20160619024033.24"><vh>drawcircle</vh></v>
-<v t="leo.20160619024033.25"><vh>drawcircle1</vh></v>
-<v t="leo.20160619024033.26"><vh>drawcircle2</vh></v>
-<v t="leo.20160619024033.27"><vh>drawtwocircle</vh></v>
-<v t="leo.20160619024033.28"><vh>draweithteenthirdy</vh></v>
-<v t="leo.20160619024033.29"><vh>snap</vh></v>
-<v t="leo.20160619024033.30"><vh>snap_link</vh></v>
-<v t="leo.20160619024033.31"><vh>snap_gear</vh></v>
-<v t="leo.20160619024033.32"><vh>fivegear</vh></v>
-</v>
-<v t="leo.20160619024033.33"><vh>@edit bg6_40323220_1.py</vh></v>
-<v t="leo.20160619024033.34" a="E"><vh>@path ./../../../</vh>
-<v t="leo.20160619024033.35" a="E"><vh>@clean myflaskapp.py</vh>
-<v t="leo.20160619024033.36"><vh>myflaskapp declarations</vh></v>
-<v t="leo.20160619024033.37"><vh>index</vh></v>
-<v t="leo.20160619024033.38"><vh>user</vh></v>
-<v t="leo.20160619024033.39"><vh>red</vh></v>
-<v t="leo.20160619024033.40"><vh>guessform</vh></v>
-<v t="leo.20160619024033.41"><vh>docheck</vh></v>
-<v t="leo.20160619024033.42"><vh>option</vh></v>
-<v t="leo.20160619024033.43"><vh>optionaction</vh></v>
-<v t="leo.20160619024033.44"><vh>fileaxupload</vh></v>
-<v t="leo.20160619024033.45"><vh>fileuploadform</vh></v>
-<v t="leo.20160619024033.46"><vh>imageaxupload</vh></v>
-<v t="leo.20160619024033.47"><vh>imagefileuploadform</vh></v>
-<v t="leo.20160619024033.48"><vh>download</vh></v>
-<v t="leo.20160619024033.49"><vh>send_images</vh></v>
-<v t="leo.20160619024033.50"><vh>send_static</vh></v>
-<v t="leo.20160619024033.51"><vh>send_blog</vh></v>
-<v t="leo.20160619024033.52"><vh>send_file</vh></v>
+<v t="leo.20160623212005.9" a="E"><vh>@path content/b/g6</vh>
+<v t="leo.20160623212005.10" a="M"><vh>@edit 40323235-w11.md</vh></v>
+<v t="leo.20160623212005.11"><vh>@edit 40323235-w13.md</vh></v>
+<v t="leo.20160623212005.12"><vh>@edit 40323235-w14.md</vh></v>
 </v>
 </v>
 </v>
-<v t="leo.20160623214802.2" a="E"><vh>Recovered Nodes</vh>
-<v t="leo.20160623214802.3"><vh>Recovered node "myflaskapp declarations" from @clean myflaskapp.py</vh>
-<v t="leo.20160623214802.4"><vh>old:myflaskapp declarations</vh></v>
-<v t="leo.20160623214802.5"><vh>new:myflaskapp declarations</vh></v>
+</v>
+<v t="leo.20160623212012.1" a="E"><vh>wsgi 程式部份</vh>
+<v t="leo.20160623212012.2" a="E"><vh>@clean bg6_40323235.py</vh>
+<v t="leo.20160623212012.3"><vh>bg6_40323235 declarations</vh></v>
+<v t="leo.20160623212012.4"><vh>a</vh></v>
+<v t="leo.20160623212012.5"><vh>b</vh></v>
+<v t="leo.20160623212012.6"><vh>c</vh></v>
+<v t="leo.20160623212012.7"><vh>d</vh></v>
+<v t="leo.20160623212012.8"><vh>circle</vh></v>
+<v t="leo.20160623212012.9"><vh>circle1</vh></v>
+<v t="leo.20160623212012.10"><vh>circle2</vh></v>
+<v t="leo.20160623212012.11"><vh>twocircle</vh></v>
+<v t="leo.20160623212012.12"><vh>eighteenthirty</vh></v>
+<v t="leo.20160623212012.13"><vh>draw_a</vh></v>
+<v t="leo.20160623212012.14"><vh>draw_b</vh></v>
+<v t="leo.20160623212012.15"><vh>draw_c</vh></v>
+<v t="leo.20160623212012.16"><vh>draw_d</vh></v>
+<v t="leo.20160623212012.17"><vh>draw_ab</vh></v>
+<v t="leo.20160623212012.18"><vh>draw_ac</vh></v>
+<v t="leo.20160623212012.19"><vh>draw_bc</vh></v>
+<v t="leo.20160623212012.20"><vh>draw_abc</vh></v>
+<v t="leo.20160623212012.21"><vh>draw_aaaa</vh></v>
+<v t="leo.20160623212012.22"><vh>draw_badc</vh></v>
+<v t="leo.20160623212012.23"><vh>draw_abcd</vh></v>
+<v t="leo.20160623212012.24"><vh>drawcircle</vh></v>
+<v t="leo.20160623212012.25"><vh>drawcircle1</vh></v>
+<v t="leo.20160623212012.26"><vh>drawcircle2</vh></v>
+<v t="leo.20160623212012.27"><vh>drawtwocircle</vh></v>
+<v t="leo.20160623212012.28"><vh>draweithteenthirdy</vh></v>
+<v t="leo.20160623212012.29"><vh>snap</vh></v>
+<v t="leo.20160623212012.30"><vh>snap_link</vh></v>
+<v t="leo.20160623212012.31"><vh>snap_gear</vh></v>
+<v t="leo.20160623212012.32"><vh>fivegear</vh></v>
+</v>
+<v t="leo.20160623212012.33"><vh>@edit bg6_40323235_1.py</vh></v>
+<v t="leo.20160623212012.34" a="E"><vh>@path ./../../../</vh>
+<v t="leo.20160623212012.35" a="E"><vh>@clean myflaskapp.py</vh>
+<v t="leo.20160623212012.36"><vh>myflaskapp declarations</vh></v>
+<v t="leo.20160623212012.37"><vh>index</vh></v>
+<v t="leo.20160623212012.38"><vh>user</vh></v>
+<v t="leo.20160623212012.39"><vh>red</vh></v>
+<v t="leo.20160623212012.40"><vh>guessform</vh></v>
+<v t="leo.20160623212012.41"><vh>docheck</vh></v>
+<v t="leo.20160623212012.42"><vh>option</vh></v>
+<v t="leo.20160623212012.43"><vh>optionaction</vh></v>
+<v t="leo.20160623212012.44"><vh>fileaxupload</vh></v>
+<v t="leo.20160623212012.45"><vh>fileuploadform</vh></v>
+<v t="leo.20160623212012.46"><vh>imageaxupload</vh></v>
+<v t="leo.20160623212012.47"><vh>imagefileuploadform</vh></v>
+<v t="leo.20160623212012.48"><vh>download</vh></v>
+<v t="leo.20160623212012.49"><vh>send_images</vh></v>
+<v t="leo.20160623212012.50"><vh>send_static</vh></v>
+<v t="leo.20160623212012.51"><vh>send_blog</vh></v>
+<v t="leo.20160623212012.52"><vh>send_file</vh></v>
+</v>
 </v>
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20160619024028.1"></t>
-<t tx="leo.20160619024028.2"></t>
-<t tx="leo.20160619024028.4"></t>
-<t tx="leo.20160619024028.5"></t>
-<t tx="leo.20160619024028.6">@language python
+<t tx="leo.20160623212005.1"></t>
+<t tx="leo.20160623212005.2"></t>
+<t tx="leo.20160623212005.4"></t>
+<t tx="leo.20160623212005.5"></t>
+<t tx="leo.20160623212005.6">@language python
 import os
 #os.system("pelican content -o ./ -s publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s publishconf.py")
 g.es("admin pelican 執行完畢")
 
 </t>
-<t tx="leo.20160619024028.7"></t>
-<t tx="leo.20160619024028.8">@language python
+<t tx="leo.20160623212005.7"></t>
+<t tx="leo.20160623212005.8">@language python
 import os
 #os.system("pelican content -o output -s local_publishconf.py -t theme/pelican-bootstrap3")
 os.system("pelican content -o blog -s local_publishconf.py")
@@ -112,9 +106,9 @@ g.es("admin pelican 近端執行完畢")
 
 
 </t>
-<t tx="leo.20160619024028.9"></t>
-<t tx="leo.20160619024033.1"></t>
-<t tx="leo.20160619024033.10">def circle2(x, y, degree=10):
+<t tx="leo.20160623212005.9"></t>
+<t tx="leo.20160623212012.1"></t>
+<t tx="leo.20160623212012.10">def circle2(x, y, degree=10):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -133,7 +127,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160619024033.11">def twocircle(x, y):
+<t tx="leo.20160623212012.11">def twocircle(x, y):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -209,7 +203,7 @@ r1, s1 = mychain.basic_rot(p13, k13, '''+str(first_degree)+''')
  
     return outstring
 </t>
-<t tx="leo.20160619024033.12">def eighteenthirty(x, y):
+<t tx="leo.20160623212012.12">def eighteenthirty(x, y):
     '''
 從圖解法與符號式解法得到的兩條外切線座標點
 (-203.592946177111, 0.0), (0.0, 0.0), (-214.364148466539, 56.5714145924675), (-17.8936874260919, 93.9794075692901)
@@ -289,54 +283,54 @@ r1, s1 = mychain.basic_rot(x11, y11, '''+str(first_degree)+''')
  
  
 </t>
-<t tx="leo.20160619024033.13">@bg6_40323220.route('/a')
+<t tx="leo.20160623212012.13">@bg6_40323235.route('/a')
 def draw_a():
     return head_str + chain_str + a(0, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.14">@bg6_40323220.route('/b')
+<t tx="leo.20160623212012.14">@bg6_40323235.route('/b')
 def draw_b():
    # 每個橫向字元距離為 65 pixels, 上下字距則為 110 pixels
     return head_str + chain_str + b(0+65, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.15">@bg6_40323220.route('/c')
+<t tx="leo.20160623212012.15">@bg6_40323235.route('/c')
 def draw_c():
     # 每個橫向字元距離為 65 pixels
     return head_str + chain_str + c(0+65*2, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.16">@bg6_40323220.route('/d')
+<t tx="leo.20160623212012.16">@bg6_40323235.route('/d')
 def draw_d():
     return head_str + chain_str + d(0+65*3, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.17">@bg6_40323220.route('/ab')
+<t tx="leo.20160623212012.17">@bg6_40323235.route('/ab')
 def draw_ab():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + tail_str
     return head_str + chain_str + a(0, 0) + b(0, 0-110) + tail_str
  
  </t>
-<t tx="leo.20160619024033.18">@bg6_40323220.route('/ac')
+<t tx="leo.20160623212012.18">@bg6_40323235.route('/ac')
 def draw_ac():
     return head_str + chain_str + a(0, 0) + c(0+65, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.19">@bg6_40323220.route('/bc')
+<t tx="leo.20160623212012.19">@bg6_40323235.route('/bc')
 def draw_bc():
     return head_str + chain_str + b(0, 0) + c(0+65, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.2">@language python
+<t tx="leo.20160623212012.2">@language python
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20160619024033.20">@bg6_40323220.route('/abc')
+<t tx="leo.20160623212012.20">@bg6_40323235.route('/abc')
 def draw_abc():
     return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.21">@bg6_40323220.route('/aaaa')
+<t tx="leo.20160623212012.21">@bg6_40323235.route('/aaaa')
 def draw_aaaa():
     outstring = head_str + chain_str
     scale = 2
@@ -347,51 +341,51 @@ def draw_aaaa():
     #return head_str + chain_str + a(0, 0, scale=1) + a(0+65, 0, scale=0.8, color="red") + a(0+65*2, 0, scale=0.6) + a(0+65*3, 0, scale=0.4, color="red") + tail_str
  
  </t>
-<t tx="leo.20160619024033.22">@bg6_40323220.route('/badc')
+<t tx="leo.20160623212012.22">@bg6_40323235.route('/badc')
 def draw_badc():
     return head_str + chain_str + b(0, 0) + a(0+65, 0) + d(0+65*2, 0) + c(0+65*3, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.23">@bg6_40323220.route('/abcd')
+<t tx="leo.20160623212012.23">@bg6_40323235.route('/abcd')
 def draw_abcd():
     #return head_str + chain_str + a(0, 0) + b(0+65, 0) + c(0+65*2, 0) + d(0+65*3, 0) + tail_str
     return head_str + chain_str + a(0, 110) + b(0, 110-110) + c(0, 110-110*2) + d(0, 110-110*3) + tail_str
  
  </t>
-<t tx="leo.20160619024033.24">@bg6_40323220.route('/circle')
+<t tx="leo.20160623212012.24">@bg6_40323235.route('/circle')
 def drawcircle():
     return head_str + chain_str + circle(0, 0) + tail_str
  
  </t>
-<t tx="leo.20160619024033.25">@bg6_40323220.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg6_40323220.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg6_40323220.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg6_40323220.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160623212012.25">@bg6_40323235.route('/circle1/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg6_40323235.route('/circle1/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg6_40323235.route('/circle1/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg6_40323235.route('/circle1/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle1(x,y,degree):
     return head_str + chain_str + circle1(int(x), int(y), int(degree)) + tail_str
  
  </t>
-<t tx="leo.20160619024033.26">@bg6_40323220.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
-@bg6_40323220.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
-@bg6_40323220.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
-#@bg6_40323220.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
+<t tx="leo.20160623212012.26">@bg6_40323235.route('/circle2/&lt;degree&gt;', defaults={'x': 0, 'y': 0})
+@bg6_40323235.route('/circle2/&lt;x&gt;/&lt;degree&gt;', defaults={'y': 0})
+@bg6_40323235.route('/circle2/&lt;x&gt;/&lt;y&gt;/&lt;degree&gt;')
+#@bg6_40323235.route('/circle2/&lt;int:x&gt;/&lt;int:y&gt;/&lt;int:degree&gt;')
 def drawcircle2(x,y,degree):
     return head_str + chain_str + circle2(int(x), int(y), int(degree)) + tail_str
  
  </t>
-<t tx="leo.20160619024033.27">@bg6_40323220.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
-@bg6_40323220.route('/twocircle', defaults={'x':0, 'y':0})
+<t tx="leo.20160623212012.27">@bg6_40323235.route('/twocircle/&lt;x&gt;/&lt;y&gt;')
+@bg6_40323235.route('/twocircle', defaults={'x':0, 'y':0})
 def drawtwocircle(x,y):
     return head_str + chain_str + twocircle(int(x), int(y)) + tail_str
  
  </t>
-<t tx="leo.20160619024033.28">@bg6_40323220.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
-@bg6_40323220.route('/eighteenthirty', defaults={'x':0, 'y':0})
+<t tx="leo.20160623212012.28">@bg6_40323235.route('/eighteenthirty/&lt;x&gt;/&lt;y&gt;')
+@bg6_40323235.route('/eighteenthirty', defaults={'x':0, 'y':0})
 def draweithteenthirdy(x,y):
     return head_str + chain_str + eighteenthirty(int(x), int(y)) + tail_str
  
  </t>
-<t tx="leo.20160619024033.29">@bg6_40323220.route('/snap')
+<t tx="leo.20160623212012.29">@bg6_40323235.route('/snap')
 # http://svg.dabbles.info/snaptut-base
 def snap():
     outstring = '''
@@ -470,9 +464,9 @@ document['tux'].bind('mouseleave', hoverout)
     return outstring
  
  </t>
-<t tx="leo.20160619024033.3">from flask import Blueprint, request
+<t tx="leo.20160623212012.3">from flask import Blueprint, request
  
-bg6_40323220 = Blueprint('bg6_40323220', __name__, url_prefix='/bg6_40323220', template_folder='templates')
+bg6_40323235 = Blueprint('bg6_40323235', __name__, url_prefix='/bg6_40323235', template_folder='templates')
  
 head_str = '''
 &lt;!DOCTYPE html&gt;
@@ -607,7 +601,7 @@ class chain():
         return x2, y2
 '''
  </t>
-<t tx="leo.20160619024033.30">@bg6_40323220.route('/snap_link')
+<t tx="leo.20160623212012.30">@bg6_40323235.route('/snap_link')
 # http://svg.dabbles.info/
 def snap_link():
     outstring = '''
@@ -689,7 +683,7 @@ g4.animate( { 'transform' : 'r360,25,25' },4000)
     return outstring
  
  </t>
-<t tx="leo.20160619024033.31">@bg6_40323220.route('/snap_gear')
+<t tx="leo.20160623212012.31">@bg6_40323235.route('/snap_gear')
 def snap_gear():
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -728,7 +722,7 @@ s.line(0, 0, 100, 100).attr({ 'fill': "silver", 'stroke': "black", 'strokeWidth'
 &lt;/html&gt;
 '''
     return outstring</t>
-<t tx="leo.20160619024033.32">@bg6_40323220.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;/&lt;n5&gt;')
+<t tx="leo.20160623212012.32">@bg6_40323235.route('/fivegear/&lt;n1&gt;/&lt;n2&gt;/&lt;n3&gt;/&lt;n4&gt;/&lt;n5&gt;')
 def fivegear(n1, n2, n3, n4, n5):
     outstring = '''
 &lt;!DOCTYPE html&gt;
@@ -878,8 +872,8 @@ spur(cx+pr1+pr2+pr2+pr3+pr3+pr4+pr4+pr5, cy, m, n5, pa, 180-180/n4*n4/n5+(180-18
 &lt;/script&gt;
 '''
     return outstring</t>
-<t tx="leo.20160619024033.34"></t>
-<t tx="leo.20160619024033.35">@language python
+<t tx="leo.20160623212012.34"></t>
+<t tx="leo.20160623212012.35">@language python
 @tabwidth -4
 @others
 if __name__ == "__main__":
@@ -972,7 +966,7 @@ app.register_blueprint(users.b.g6.bg6_40323235.bg6_40323235)
 app.register_blueprint(users.b.g6.bg6_40323235_1.bg6_40323235_1)
 
 </t>
-<t tx="leo.20160619024033.36"># coding: utf-8
+<t tx="leo.20160623212012.36"># coding: utf-8
 from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
 import random
 import math
@@ -1096,7 +1090,7 @@ app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
 
 
 </t>
-<t tx="leo.20160619024033.37">@app.route("/")
+<t tx="leo.20160623212012.37">@app.route("/")
 def index():
     #這是猜數字遊戲的起始表單, 主要在產生答案, 並且將 count 歸零
     # 將標準答案存入 answer session 對應區
@@ -1108,16 +1102,16 @@ def index():
 
     return render_template("index.html", answer=theanswer, count=thecount)
 </t>
-<t tx="leo.20160619024033.38">@app.route('/user/&lt;name&gt;')
+<t tx="leo.20160623212012.38">@app.route('/user/&lt;name&gt;')
 def user(name):
     return render_template("user.html", name=name)
 </t>
-<t tx="leo.20160619024033.39">@app.route('/red')
+<t tx="leo.20160623212012.39">@app.route('/red')
 def red():
     # 重新導向 google
     return redirect("http://www.google.com")
 </t>
-<t tx="leo.20160619024033.4"># 傳繪 A 函式內容
+<t tx="leo.20160623212012.4"># 傳繪 A 函式內容
 def a(x, y, scale=1, color="green"):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1147,7 +1141,7 @@ mychain.basic(x10, y10, x1, y1)
  
  
 </t>
-<t tx="leo.20160619024033.40">@app.route('/guessform')
+<t tx="leo.20160623212012.40">@app.route('/guessform')
 def guessform():
     session["count"] += 1
     guess = session.get("guess")
@@ -1155,7 +1149,7 @@ def guessform():
     count = session.get("count")
     return render_template("guessform.html", guess=guess, answer=theanswer, count=count)
 </t>
-<t tx="leo.20160619024033.41">@app.route('/docheck', methods=['POST'])
+<t tx="leo.20160623212012.41">@app.route('/docheck', methods=['POST'])
 def docheck():
     # session[] 存資料
     # session.get() 取 session 資料
@@ -1190,7 +1184,7 @@ def docheck():
     return render_template("docheck.html", guess=guess)
  
 </t>
-<t tx="leo.20160619024033.42">@app.route('/option', methods=["GET", "POST"])
+<t tx="leo.20160623212012.42">@app.route('/option', methods=["GET", "POST"])
 def option():
     # 各組選出組長的方式, 若採遞增, 則各組內學號最小者為組長
     option_list1 = ["遞增", "遞減"]
@@ -1205,7 +1199,7 @@ def option():
 
     return render_template('option.html', option_list1=option_list1, option_list2=option_list2, option_list3=option_list3, column=column)
 </t>
-<t tx="leo.20160619024033.43">@app.route('/optionaction', methods=['POST'])
+<t tx="leo.20160623212012.43">@app.route('/optionaction', methods=['POST'])
 def optionaction():
     # 最後傳回的字串為 out_string
     out_string = ""
@@ -1340,7 +1334,7 @@ def optionaction():
     
 
 </t>
-<t tx="leo.20160619024033.44">@app.route('/fileaxupload', methods=['POST'])
+<t tx="leo.20160623212012.44">@app.route('/fileaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
 def fileaxupload():
     '''
@@ -1363,7 +1357,7 @@ def fileaxupload():
     
     
 </t>
-<t tx="leo.20160619024033.45">@app.route('/fileuploadform')
+<t tx="leo.20160623212012.45">@app.route('/fileuploadform')
 def fileuploadform():
     '''
     if not session.get('logged_in'):
@@ -1393,7 +1387,7 @@ def fileuploadform():
   &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
   '''
 </t>
-<t tx="leo.20160619024033.46">@app.route('/imageaxupload', methods=['POST'])
+<t tx="leo.20160623212012.46">@app.route('/imageaxupload', methods=['POST'])
 # ajax jquery chunked file upload for flask
 def imageaxupload():
     '''
@@ -1416,7 +1410,7 @@ def imageaxupload():
     
     
 </t>
-<t tx="leo.20160619024033.47">@app.route('/imageuploadform')
+<t tx="leo.20160623212012.47">@app.route('/imageuploadform')
 def imageuploadform():
     '''
     if not session.get('logged_in'):
@@ -1446,7 +1440,7 @@ def imageuploadform():
   &lt;/section&gt;&lt;/body&gt;&lt;/html&gt;
   '''
 </t>
-<t tx="leo.20160619024033.48">@app.route('/downloads/&lt;path:filename&gt;', methods=['GET', 'POST'])
+<t tx="leo.20160623212012.48">@app.route('/downloads/&lt;path:filename&gt;', methods=['GET', 'POST'])
 def download(filename):
     #return send_from_directory(download_dir, filename=filename, as_attachment=True)
     return send_from_directory(download_dir, filename=filename)
@@ -1454,12 +1448,12 @@ def download(filename):
 
 
 </t>
-<t tx="leo.20160619024033.49"># setup static directory
+<t tx="leo.20160623212012.49"># setup static directory
 @app.route('/images/&lt;path:path&gt;')
 def send_images(path):
     return send_from_directory(data_dir+"/images/", path)
 </t>
-<t tx="leo.20160619024033.5"># 傳繪 B 函式內容
+<t tx="leo.20160623212012.5"># 傳繪 B 函式內容
 def b(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1496,25 +1490,25 @@ mychain.basic(x12,y12, '''+str(x)+","+str(y)+''')
     return outstring
  
 </t>
-<t tx="leo.20160619024033.50"># setup static directory
+<t tx="leo.20160623212012.50"># setup static directory
 @app.route('/static/')
 def send_static():
   return app.send_static_file('index.html')
 
 </t>
-<t tx="leo.20160619024033.51"># setup static directory
+<t tx="leo.20160623212012.51"># setup static directory
 @app.route('/static/blog/')
 def send_blog():
   return app.send_static_file('blog/index.html')
 
 </t>
-<t tx="leo.20160619024033.52"># setup static directory
+<t tx="leo.20160623212012.52"># setup static directory
 @app.route('/static/&lt;path:path&gt;')
 def send_file(path):
   return app.send_static_file(static_dir+path)
 
 </t>
-<t tx="leo.20160619024033.6"># 傳繪 C 函式內容
+<t tx="leo.20160623212012.6"># 傳繪 C 函式內容
 def c(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1543,7 +1537,7 @@ x7, y7 = mychain.basic_rot(x6, y6, -0)
  
  
 </t>
-<t tx="leo.20160619024033.7"># 傳繪 D 函式內容
+<t tx="leo.20160623212012.7"># 傳繪 D 函式內容
 def d(x, y):
     outstring = '''
 # 利用 chain class 建立案例, 對應到 mychain 變數
@@ -1574,7 +1568,7 @@ mychain.basic(x10, y10, '''+str(x)+","+str(y)+''')
     return outstring
  
 </t>
-<t tx="leo.20160619024033.8">def circle(x, y):
+<t tx="leo.20160623212012.8">def circle(x, y):
     outstring = '''
 mychain = chain()
  
@@ -1585,7 +1579,7 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+''', 50)
     return outstring
  
 </t>
-<t tx="leo.20160619024033.9">def circle1(x, y, degree=10):
+<t tx="leo.20160623212012.9">def circle1(x, y, degree=10):
     # 20 為鏈條兩圓距
     # chain 所圍之圓圈半徑為 20/2/math.asin(degree*math.pi/180/2)
     # degree = math.asin(20/2/radius)*180/math.pi
@@ -1602,381 +1596,6 @@ x1, y1 = mychain.basic_rot('''+str(x)+","+str(y)+", "+str(first_degree)+''')
     return outstring
  
  
-</t>
-<t tx="leo.20160623214802.2"></t>
-<t tx="leo.20160623214802.3">(uncached) leo.20160619024033.36
-Diff...
-  # coding: utf-8
-  from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-  import random
-  import math
-  import os
-  # init.py 為自行建立的起始物件
-  import init
-  import users.a.g1.ag1_40323105
-  import users.a.g2.ag2_40323120
-  import users.a.g10.ag10_40323129_task1
-  import users.a.g10.ag10_40323141_task1
-  import users.a.g10.ag10_40323139
-  import users.a.g9.ag9_40323132task
-  import users.a.g5.ag5_40323113task1
-  import users.a.g5.ag5_40123145task1
-  import users.a.g4.ag4_40323138
-  import users.a.g4.ag4_40323138_task2bacd
-  import users.a.g4.ag4_40323138_task3abcd
-  import users.a.g8.ag8_40323131_task1
-  import users.b.g9.bg9_40323250
-  import users.a.g8.ag8_40323123
-  
-  
-  #bg1
-  import users.b.g1.bg1_40123156
-  import users.b.g1.bg1_40123156_2
-  import users.b.g1.bg1_40123144
-  import users.b.g1.bg1_40123144_2
-  #import users.b.g1.bg1_40123131
-  #import users.b.g1.bg1_40123131_2
-  import users.b.g1.b40123131_cdw11
-  import users.b.g1.b40123131_cdw12
-  
-  import users.b.g1.b40123131_cdw11
-  import users.b.g1.b40123131_cdw12
-  import users.b.g1.bg1_40123134
-  import users.b.g1.bg1_40123134_2
-  #bg2
-  import users.b.g2.bg2_40123235
-  import users.b.g2.bg2_40123235_cdw12
-  import users.b.g2.bg2_40123202
-  import users.b.g2.bg2_40123202_1
-  #bg4
-  import users.b.g4.bg4_40323203
-  import users.b.g4.bg4_40323205
-  import users.b.g4.bg4_40323208
-  #bg8
-  import users.b.g8.bg8_40323213
-  import users.b.g4.bg4_40323202
-  import users.b.g4.b40323201_cdw11
-  
-  #bg5
-  #import users.b.g5.b40323206_cdw11_1
-  import users.b.g5.b40323204_cdw11_1
-  
-  
-  #bg5
-  #import users.b.g5.b40323206_cdw11_1
-  import users.b.g5.b40323204_cdw11_1
-  import users.b.g5.b40323204_cdw11_2
-  import users.b.g5.b40323206_cdw11_2
-  #bg11
-  import users.b.g11.bg11_40323245
-  import users.b.g11.bg11_40323252
-  #bg101
-  import users.b.g101.b40123200
-  #ag8
-  import users.a.g8.a40323143
-  import users.a.g8.a40323154
-  #ag10
-  import users.a.g10.a40323139
-  import users.a.g10.a40323141
-  #bg3
-  #import users.b.g3.b40123224
-  #import users.b.g3.b40123250
-  #import users.b.g3.b40123242
-  import users.b.g3.bg3_40123224
-  import users.b.g3.bg3_40123224_cdw11
-  import users.b.g3.bg3_40123250
-  import users.b.g3.bg3_40123250_cdw11
-  #import users.b.g3.b40123242
-  
-  #bg6
-  import users.b.g6.bg6_40323248
-  import users.b.g6.bg6_40323248_1
-  import users.b.g6.bg6_40323211
-  import users.b.g6.bg6_40323211_1
-  import users.b.g6.bg6_40323220
-  import users.b.g6.bg6_40323220_1
-- import users.b.g6.bg6_40323235
-- import users.b.g6.bg6_40323235_1
-  
-  #ag100
-  import users.a.g100.cdw13.a40123100
-  # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-  _curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-  # 設定在雲端與近端的資料儲存目錄
-  if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-      # 表示程式在雲端執行
-      data_dir = os.environ['OPENSHIFT_DATA_DIR']
-      static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-      download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-  else:
-      # 表示程式在近端執行
-      data_dir = _curdir + "/local_data/"
-      static_dir = _curdir + "/static"
-      download_dir = _curdir + "/local_data/downloads/"
-  
-  # 利用 init.py 啟動, 建立所需的相關檔案
-  initobj = init.Init()
-  
-  # 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-  app = Flask(__name__)
-  #app.config['download_dir'] = download_dir
-  
-  # 使用 session 必須要設定 secret_key
-  # In order to use sessions you have to set a secret key
-  # set the secret key.  keep this really secret:
-  app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-  
-  
-  
-  
-+ 
-</t>
-<t tx="leo.20160623214802.4"># coding: utf-8
-from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-import random
-import math
-import os
-# init.py 為自行建立的起始物件
-import init
-import users.a.g1.ag1_40323105
-import users.a.g2.ag2_40323120
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g5.ag5_40123145task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.a.g8.ag8_40323123
-
-
-#bg1
-import users.b.g1.bg1_40123156
-import users.b.g1.bg1_40123156_2
-import users.b.g1.bg1_40123144
-import users.b.g1.bg1_40123144_2
-#import users.b.g1.bg1_40123131
-#import users.b.g1.bg1_40123131_2
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
-
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
-import users.b.g1.bg1_40123134
-import users.b.g1.bg1_40123134_2
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123235_cdw12
-import users.b.g2.bg2_40123202
-import users.b.g2.bg2_40123202_1
-#bg4
-import users.b.g4.bg4_40323203
-import users.b.g4.bg4_40323205
-import users.b.g4.bg4_40323208
-#bg8
-import users.b.g8.bg8_40323213
-import users.b.g4.bg4_40323202
-import users.b.g4.b40323201_cdw11
-
-#bg5
-#import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-
-
-#bg5
-#import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-import users.b.g5.b40323204_cdw11_2
-import users.b.g5.b40323206_cdw11_2
-#bg11
-import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323252
-#bg101
-import users.b.g101.b40123200
-#ag8
-import users.a.g8.a40323143
-import users.a.g8.a40323154
-#ag10
-import users.a.g10.a40323139
-import users.a.g10.a40323141
-#bg3
-#import users.b.g3.b40123224
-#import users.b.g3.b40123250
-#import users.b.g3.b40123242
-import users.b.g3.bg3_40123224
-import users.b.g3.bg3_40123224_cdw11
-import users.b.g3.bg3_40123250
-import users.b.g3.bg3_40123250_cdw11
-#import users.b.g3.b40123242
-
-#bg6
-import users.b.g6.bg6_40323248
-import users.b.g6.bg6_40323248_1
-import users.b.g6.bg6_40323211
-import users.b.g6.bg6_40323211_1
-import users.b.g6.bg6_40323220
-import users.b.g6.bg6_40323220_1
-
-#ag100
-import users.a.g100.cdw13.a40123100
-# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-# 設定在雲端與近端的資料儲存目錄
-if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-    # 表示程式在雲端執行
-    data_dir = os.environ['OPENSHIFT_DATA_DIR']
-    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-else:
-    # 表示程式在近端執行
-    data_dir = _curdir + "/local_data/"
-    static_dir = _curdir + "/static"
-    download_dir = _curdir + "/local_data/downloads/"
-
-# 利用 init.py 啟動, 建立所需的相關檔案
-initobj = init.Init()
-
-# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-app = Flask(__name__)
-#app.config['download_dir'] = download_dir
-
-# 使用 session 必須要設定 secret_key
-# In order to use sessions you have to set a secret key
-# set the secret key.  keep this really secret:
-app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
-
-
-
-</t>
-<t tx="leo.20160623214802.5"># coding: utf-8
-from flask import Flask, send_from_directory, request, redirect, render_template, session, make_response
-import random
-import math
-import os
-# init.py 為自行建立的起始物件
-import init
-import users.a.g1.ag1_40323105
-import users.a.g2.ag2_40323120
-import users.a.g10.ag10_40323129_task1
-import users.a.g10.ag10_40323141_task1
-import users.a.g10.ag10_40323139
-import users.a.g9.ag9_40323132task
-import users.a.g5.ag5_40323113task1
-import users.a.g5.ag5_40123145task1
-import users.a.g4.ag4_40323138
-import users.a.g4.ag4_40323138_task2bacd
-import users.a.g4.ag4_40323138_task3abcd
-import users.a.g8.ag8_40323131_task1
-import users.b.g9.bg9_40323250
-import users.a.g8.ag8_40323123
-
-
-#bg1
-import users.b.g1.bg1_40123156
-import users.b.g1.bg1_40123156_2
-import users.b.g1.bg1_40123144
-import users.b.g1.bg1_40123144_2
-#import users.b.g1.bg1_40123131
-#import users.b.g1.bg1_40123131_2
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
-
-import users.b.g1.b40123131_cdw11
-import users.b.g1.b40123131_cdw12
-import users.b.g1.bg1_40123134
-import users.b.g1.bg1_40123134_2
-#bg2
-import users.b.g2.bg2_40123235
-import users.b.g2.bg2_40123235_cdw12
-import users.b.g2.bg2_40123202
-import users.b.g2.bg2_40123202_1
-#bg4
-import users.b.g4.bg4_40323203
-import users.b.g4.bg4_40323205
-import users.b.g4.bg4_40323208
-#bg8
-import users.b.g8.bg8_40323213
-import users.b.g4.bg4_40323202
-import users.b.g4.b40323201_cdw11
-
-#bg5
-#import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-
-
-#bg5
-#import users.b.g5.b40323206_cdw11_1
-import users.b.g5.b40323204_cdw11_1
-import users.b.g5.b40323204_cdw11_2
-import users.b.g5.b40323206_cdw11_2
-#bg11
-import users.b.g11.bg11_40323245
-import users.b.g11.bg11_40323252
-#bg101
-import users.b.g101.b40123200
-#ag8
-import users.a.g8.a40323143
-import users.a.g8.a40323154
-#ag10
-import users.a.g10.a40323139
-import users.a.g10.a40323141
-#bg3
-#import users.b.g3.b40123224
-#import users.b.g3.b40123250
-#import users.b.g3.b40123242
-import users.b.g3.bg3_40123224
-import users.b.g3.bg3_40123224_cdw11
-import users.b.g3.bg3_40123250
-import users.b.g3.bg3_40123250_cdw11
-#import users.b.g3.b40123242
-
-#bg6
-import users.b.g6.bg6_40323248
-import users.b.g6.bg6_40323248_1
-import users.b.g6.bg6_40323211
-import users.b.g6.bg6_40323211_1
-import users.b.g6.bg6_40323220
-import users.b.g6.bg6_40323220_1
-import users.b.g6.bg6_40323235
-import users.b.g6.bg6_40323235_1
-
-#ag100
-import users.a.g100.cdw13.a40123100
-# 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
-_curdir = os.path.join(os.getcwd(), os.path.dirname(__file__))
-# 設定在雲端與近端的資料儲存目錄
-if 'OPENSHIFT_REPO_DIR' in os.environ.keys():
-    # 表示程式在雲端執行
-    data_dir = os.environ['OPENSHIFT_DATA_DIR']
-    static_dir = os.environ['OPENSHIFT_REPO_DIR']+"/static"
-    download_dir = os.environ['OPENSHIFT_DATA_DIR']+"/downloads"
-else:
-    # 表示程式在近端執行
-    data_dir = _curdir + "/local_data/"
-    static_dir = _curdir + "/static"
-    download_dir = _curdir + "/local_data/downloads/"
-
-# 利用 init.py 啟動, 建立所需的相關檔案
-initobj = init.Init()
-
-# 必須先將 download_dir 設為 static_folder, 然後才可以用於 download 方法中的 app.static_folder 的呼叫
-app = Flask(__name__)
-#app.config['download_dir'] = download_dir
-
-# 使用 session 必須要設定 secret_key
-# In order to use sessions you have to set a secret key
-# set the secret key.  keep this really secret:
-app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
-
-
-
 </t>
 </tnodes>
 </leo_file>
