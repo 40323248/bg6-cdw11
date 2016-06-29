@@ -83,8 +83,8 @@ import users.b.g3.bg3_40123250_cdw11
 #bg6
 import users.b.g6.bg6_40323248
 import users.b.g6.bg6_40323248_1
-import users.b.g6.bg6_40323211
-import users.b.g6.bg6_40323211_1
+import users.b.g6.bg6_40323220
+import users.b.g6.bg6_40323220_1
 import users.b.g6.bg6_40323220
 import users.b.g6.bg6_40323220_1
 import users.b.g6.bg6_40323235
@@ -117,7 +117,6 @@ app = Flask(__name__)
 # In order to use sessions you have to set a secret key
 # set the secret key.  keep this really secret:
 app.secret_key = 'A0Zr9@8j/3yX R~XHH!jmN]LWX/,?R@T'
-
 
 
 
@@ -538,10 +537,9 @@ app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 #bg6
 app.register_blueprint(users.b.g6.bg6_40323248.bg6_40323248)
 app.register_blueprint(users.b.g6.bg6_40323248_1.bg6_40323248_1)
-app.register_blueprint(users.b.g6.bg6_40323211.bg6_40323211)
-app.register_blueprint(users.b.g6.bg6_40323211_1.bg6_40323211_1)
+app.register_blueprint(users.b.g6.bg6_40323220.bg6_40323220)
+app.register_blueprint(users.b.g6.bg6_40323220_1.bg6_40323220_1)
 app.register_blueprint(users.b.g6.bg6_40323220.bg6_40323220)
 app.register_blueprint(users.b.g6.bg6_40323220_1.bg6_40323220_1)
 app.register_blueprint(users.b.g6.bg6_40323235.bg6_40323235)
 app.register_blueprint(users.b.g6.bg6_40323235_1.bg6_40323235_1)
-

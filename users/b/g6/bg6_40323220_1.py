@@ -201,7 +201,7 @@ x6, y6 = mychain.basic_rot(x5, y5, -71)
 x7, y7 = mychain.basic_rot(x6, y6, -80)
 # 右邊兩個垂直單元
 x8, y8 = mychain.basic_rot(x7, y7, -90)
-40323220= mychain.basic_rot(x8, y8, -90)
+x9, y9 = mychain.basic_rot(x8, y8, -90)
 # 中間兩個水平單元
 x10, y10 = mychain.basic_rot(x8, y8, -180)
 mychain.basic(x10, y10, x1, y1, color="green")
@@ -402,7 +402,8 @@ x1, y1 = mychain.basic_rot(0+65*3, 0, 90)
 x2, y2 = mychain.basic_rot(x1, y1, 90)
 x3, y3 = mychain.basic_rot(x2, y2, 90)
 x4, y4 = mychain.basic_rot(x3, y3, 90)
-# 上方一403232205, y5 = mychain.basic_rot(x4, y4, 0)
+# 上方一個水平單元
+x5, y5 = mychain.basic_rot(x4, y4, 0)
 # 右斜 -40 度
 x6, y6 = mychain.basic_rot(x5, y5, -40)
 x7, y7 = mychain.basic_rot(x6, y6, -60)
